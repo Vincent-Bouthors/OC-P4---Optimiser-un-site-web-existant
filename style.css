@@ -439,6 +439,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
 }
 
 .mg-lg {
@@ -721,12 +722,12 @@ h3 {
     font-size: 22px;
     font-weight: 500;
     font-style: italic;
-    color: #575757 !important;;
+    color:#262626 !important
 }
 .quote-author {
     font-weight: 400;
     font-size: 22px;
-    color: #8a8989 !important;
+    color: #575757 !important;
 }
 
 .med-width-whitespace {
@@ -765,8 +766,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(165, 147, 99, 0.9);
     padding: 40px 40px 40px 40px;
+    position: relative;
 }
 
 .bold-link {
@@ -787,7 +789,10 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000000!important;
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 5px;
 }
 
 .btn-atomic-tangerine {

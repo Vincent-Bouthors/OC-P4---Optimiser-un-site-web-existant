@@ -102,6 +102,7 @@ a:hover {
 .d-bloc {
     color: rgba(255, 255, 255, 1);
     font-size: 16px;
+    font-weight: 700;
 }
 
 .d-bloc button:hover {
@@ -508,6 +509,12 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.footer-title {
+    text-transform: none;
+    font-weight: 700;
+
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -654,7 +661,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
